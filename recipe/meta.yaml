@@ -20,9 +20,10 @@ requirements:
     - poetry-core >=1.0.0
     - python >=3.6,<4.0
   run:
+    - pyproject-flake8
     - python >=3.6,<4.0
-    - readchar >=3.1.0,<4.0.0
-    - rich >=12.5.1,<13.0.0
+    - readchar >=4.0.0,<5.0.0
+    - rich >=12.2.0,<13.0.0
     - emoji >=2.0.0,<3.0.0
 
 test:
