@@ -1,5 +1,5 @@
 {% set name = "beaupy" %}
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/beaupy-{{ version }}.tar.gz
-  sha256: 7d8eb353b6f8f48ab599826cb1baa4fa8cc657e0a049718bfccb56c23ab80336
+  sha256: 04c00b2f098bcf221a33c1d521cb5532f249488fb22e923a1a5eb4a377108c07
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - emoji >=2.0.0,<3.0.0
     - python >=3.7.8,<4.0
-    - python-yakh >=0.2.1,<0.3.0
+    - python-yakh <0.4.0,>=0.3.0
     - rich >=12.2.0,<13.0.0
 
 test:
