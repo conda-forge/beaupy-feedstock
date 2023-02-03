@@ -1,5 +1,5 @@
 {% set name = "beaupy" %}
-{% set version = "3.3.0" %}
+{% set version = "3.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/beaupy-{{ version }}.tar.gz
-  sha256: 6c49bc0475ff5e2ee3690a4ac71fedfa4f98223308024ea06a2c32e694b126f6
+  sha256: 877143f2b8043a39fb8e3f086547e70d346e583d1e6881b0fac02e156a11930f
 
 build:
   noarch: python
