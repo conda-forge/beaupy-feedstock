@@ -24,7 +24,7 @@ requirements:
     - rich >=12.2.0
     - emoji >=2.0.0,<3.0.0
     - python-yakh ==0.3.2
-    - questo >=0.2.2,<0.3.0
+    - questo >=0.2.3,<0.3.0
 
 test:
   imports:
