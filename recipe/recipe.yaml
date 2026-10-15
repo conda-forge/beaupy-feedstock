@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: beaupy
-  version: "3.12.0"
+  version: "4.0.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/beaupy-${{ version }}.tar.gz
-  sha256: e0ca6d2356b611ae734c8cf97b28ed9e3bb941d3207af2426e182da836a385d6
+  sha256: c2118ba6fdbbf4e7415c2477c43ee273d1365152d0a868e512585f251884ccba
 
 build:
   number: 0
